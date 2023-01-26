@@ -5,18 +5,18 @@ Here are the steps to set up and configure on premises Active Directory through 
 <p>
 </p>
 <p>
-First, set up two virtual machines on azure, one domain controller and one client. I recommend setting up DC-1 (Domain Controller) first so you can automatically create a resource group.
+- First, set up two virtual machines on azure, one domain controller and one client. I recommend setting up DC-1 (Domain Controller) first so you can automatically create a resource group.
 </p>
 <br />
 <p>
 </p>
 <p>
-Go to Azure->virtual machines->DC-1->Image: Windows Server 2022->Size: 2 vcpus->Username: your_username->Password: yourpassword->Check Boxes->Review+Create->Domain: yourdomain.com->Admin Login: name_Admin->Password: yourpassword
+- Go to Azure->virtual machines->DC-1->Image: Windows Server 2022->Size: 2 vcpus->Username: your_username->Password: yourpassword->Check Boxes->Review+Create->Domain: yourdomain.com->Admin Login: name_Admin->Password: yourpassword
 </p>
 <br />
 </p>
 <p>
-Now create Client-1's virtual machine->Image: Windows 10->Username: your-username->Password: yourpassword->Go to network and choose the AD-vnet
+- Now create Client-1's virtual machine->Image: Windows 10->Username: your-username->Password: yourpassword->Go to network and choose the AD-vnet
 </p>
 <br />
 <p>
@@ -26,6 +26,7 @@ Now create Client-1's virtual machine->Image: Windows 10->Username: your-usernam
 Go to virtual machines in Azure and click on the domain controller (DC-1) in Azure->Go to the networking tab on the left->Click on the network interface (NIC)->Click on IP configurations on the left->Click on the Private IP address in which it says (Dynamic) after->Switch Dynamic to Static->Save
 </p>
 <br />
+<p>
 <img src="https://i.imgur.com/Wfw07rf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/8jJ8Gqt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -160,6 +161,15 @@ Go to DC-1->Go to Active Directory Users & Computers->my domain.com->Users->Doma
 <p>
 Stay on DC-1-> Go to Powershell iSE (right click-> run as administrator) -> go to browser and copy these raw notes https://raw.githubusercontent.com/joshmadakor1/AD_PS/master/Generate-Names-Create-Users.ps1-> Go back to DC-1-> Go back to Powershell iSE->load new script top left corner->then paste->then Run Script
 <br />
+<p>
+<img src="https://i.imgur.com/OZ0OB3F.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/8FpVCBe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nXfFghG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+Go to Active Directory Users & Computers->Go to _EMPLOYEES->Right click random name->Properties-> Account->Copy name on the right->Go to Client-1-> Log out-> sign in using domain.com\random.name
+<br />
+
 
  
 
