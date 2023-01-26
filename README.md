@@ -38,5 +38,27 @@ Ensure connectivity between Client-1 and the Domain controller
 <img src="https://i.imgur.com/FYduNQL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Login to Client-1 and ping DC 1’s Private IP address on the command prompt with ping -t (perpetual ping(never ending ping)) 
+Login to Client-1 and ping DC 1’s Private IP address on the command prompt with ping -t. (perpetual ping(never ending ping)) 
+<br />
+<p>
+<img src="https://i.imgur.com/dKUQLTy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2tkxe1A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Login to the Domain Controller (DC-1) and enable ICMPv4 in on the local windows Firewall.
+<br />
+<p>
+<img src="https://i.imgur.com/iXS4TZw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Go back to Client-1 and type control+c on the command prompt
+<br />
+<p>
+<img src="https://i.imgur.com/Z1sILpk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/U4WOpwY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4fuPIBQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QXs4cqI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Go back to DC-1 and install Active Directory and log back in after. You might have to use your domain you created to log back in. My ex: lilwhatshisname.com\RafaBVM
 <br />
