@@ -33,3 +33,10 @@ Go to virtual machines in Azure and click on the domain controller (DC-1) in Azu
 Go to virtual machines and make sure both DC-1 and Client-1 are in the same virtual network (command+click each one on mac) (control+click on windows)
 Ensure connectivity between Client-1 and the Domain controller
 <br />
+<p>
+<img src="https://i.imgur.com/oO7dtXR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FYduNQL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Login to Client-1 and ping DC 1’s Private IP address on the command prompt with ping -t (perpetual ping(never ending ping)) 
+<br />
