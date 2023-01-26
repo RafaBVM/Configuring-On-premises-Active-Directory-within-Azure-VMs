@@ -26,3 +26,10 @@ Now create Client-1's virtual machine->Image: Windows 10->Username: your-usernam
 Go to virtual machines in Azure and click on the domain controller (DC-1) in Azure->Go to the networking tab on the left->Click on the network interface (NIC)->Click on IP configurations on the left->Click on the Private IP address in which it says (Dynamic) after->Switch Dynamic to Static->Save
 </p>
 <br />
+<img src="https://i.imgur.com/Wfw07rf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/8jJ8Gqt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Go to virtual machines and make sure both DC-1 and Client-1 are in the same virtual network (command+click each one on mac) (control+click on windows)
+Ensure connectivity between Client-1 and the Domain controller
+<br />
