@@ -84,3 +84,37 @@ Click on your domain then right click on it. Select New Organizational Unit and 
 <p>
 Click on _ADMINS and make a new user under your name or whatever you’d like
 <br />
+<p>
+<img src="https://i.imgur.com/xHjuQGl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+To assign your new user as a real admin, right click your _ADMINS user you just created and go to properties.
+<br />
+<p>
+<img src="https://i.imgur.com/nzr85Dw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Go to the member of tab, and click Add.
+<br />
+<p>
+<img src="https://i.imgur.com/hyCMlG0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Type domain in the text box and click Check Names. After click on Domain admins (first option) and ok/ok/apply/ok.
+<br />
+<p>
+<img src="https://i.imgur.com/anln406.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/EKKisYk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Log out of DC-1 and log back in as an admin.
+<br />
+<p>
+<img src="https://i.imgur.com/h0jBwYf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/GC5amvY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Go back to Azure->Virtual Machines->Click DC-1->Copy DC-1 Private IP Address->Click on Client-1->Go to Networking->Click Client-1’s Virtual NIC->Click on DNS Servers on the left->Click on custom and paste DC-1’s Private IP address->Save
+<br />
+
+
