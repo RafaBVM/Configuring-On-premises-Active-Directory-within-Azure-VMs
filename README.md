@@ -72,15 +72,14 @@ Go to Active Directory Users & Computers
 <img src="https://i.imgur.com/T1pkk0f.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/NlfOQvV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/78hky9N.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/TXCQIl0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Click on your domain then right click on it. Select New Organizational Unit and make an _EMPLOYEE and _ADMIN unit then refresh by right clicking on the domain to access them faster.
 <br />
 <p>
+<img src="https://i.imgur.com/TXCQIl0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/b2oc6w4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/6EYeGgm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/xHjuQGl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Click on _ADMINS and make a new user under your name or whatever you’d like
