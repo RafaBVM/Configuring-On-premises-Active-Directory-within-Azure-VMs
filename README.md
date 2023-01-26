@@ -1,6 +1,5 @@
 # Configuring On premises Active Directory within Azure VM's
 
-Here are the steps to set up and configure on premises Active Directory through Azure's Virtual Machines.
 <br />
 <p>
 </p>
