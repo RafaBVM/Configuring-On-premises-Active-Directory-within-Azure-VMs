@@ -116,5 +116,35 @@ Log out of DC-1 and log back in as an admin.
 <p>
 Go back to Azure->Virtual Machines->Click DC-1->Copy DC-1 Private IP Address->Click on Client-1->Go to Networking->Click Client-1’s Virtual NIC->Click on DNS Servers on the left->Click on custom and paste DC-1’s Private IP address->Save
 <br />
+<p>
+<img src="https://i.imgur.com/L4dr10M.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+After update restart Client-1 from Azure and log back in.
+<br />
+<p>
+<img src="https://i.imgur.com/gmYiw1v.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+After, go to Command Prompt and ipconfig /all to check the DNS server.
+<br />
+<p>
+<img src="https://i.imgur.com/7xqDhAM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Now go to system settings (right click Start menu, click system)->Rename this PC->Change->Domain->enter you website/domain and password->restart
+<br />
+<p>
+<img src="https://i.imgur.com/O3uiJwp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Log back in Client-1 using domain.com\username_admin and password
+<br />
+<p>
+<img src="https://i.imgur.com/sXVVki0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Right click start menu->Click Remote Desktop->Click select “Select user that can remotely access this PC”->Click Add->Type Domain Users->Check Names->Ok
+<br />
 
 
