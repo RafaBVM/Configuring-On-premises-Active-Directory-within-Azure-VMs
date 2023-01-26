@@ -146,5 +146,21 @@ Log back in Client-1 using domain.com\username_admin and password
 <p>
 Right click start menu->Click Remote Desktop->Click select “Select user that can remotely access this PC”->Click Add->Type Domain Users->Check Names->Ok
 <br />
+<p>
+<img src="https://i.imgur.com/wld2Q4P.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Go to DC-1->Go to Active Directory Users & Computers->my domain.com->Users->Domain Users (double click). This shows who has access as a domain user essentially.
+<br />
+<p>
+<img src="https://i.imgur.com/NWoGzTy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JZfApat.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hXOWSrn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+Stay on DC-1-> Go to Powershell iSE (right click-> run as administrator) -> go to browser and copy these raw notes https://raw.githubusercontent.com/joshmadakor1/AD_PS/master/Generate-Names-Create-Users.ps1-> Go back to DC-1-> Go back to Powershell iSE->load new script top left corner->then paste->then Run Script
+<br />
+
+ 
 
 
